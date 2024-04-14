@@ -1,18 +1,19 @@
 <!doctype html>
-<html lang="br">
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <meta name="description" content="">
-        <meta name="author" content="">
+        <meta name="author" content="Tooplate">
 
         <title>Bem-Estar</title>
 
         <!-- CSS FILES -->      
         <link rel="preconnect" href="https://fonts.googleapis.com">
         
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorig
+        in>
 
         <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;700&display=swap" rel="stylesheet">
 
@@ -23,6 +24,7 @@
         <link href="css/apexcharts.css" rel="stylesheet">
 
         <link href="css/tooplate-mini-finance.css" rel="stylesheet">
+
 
     </head>
     
@@ -83,22 +85,7 @@
                                     </div>
                                 </a>
                             </li>
-<!--
-                            <li class="notifications-block">
-                                <a class="dropdown-item d-flex align-items-center" href="#">
-                                    <div class="notifications-icon-wrap bg-danger">
-                                        <i class="notifications-icon bi-question-circle"></i>
-                                    </div>
 
-                                    <div>
-                                        <span>Account verification failed.</span>
-
-                                        <p>1 hour ago</p>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                        -->
                     </div>
 
                     <div class="dropdown ps-1">
@@ -210,16 +197,16 @@
                     <div class="position-sticky py-4 px-3 sidebar-sticky">
                         <ul class="nav flex-column h-100">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="index.html">
+                                <a class="nav-link active" aria-current="page" href="index.html">
                                     <i class="bi-house-fill me-2"></i>
-                                    Inicio
+                                    Início
                                 </a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link active" href="wallet.html">
+                                <a class="nav-link" href="consults.html">
                                     <i class="bi-wallet me-2"></i>
-                                    Pagamentos
+                                    Consultas
                                 </a>
                             </li>
 
@@ -236,317 +223,47 @@
                                     Configurações
                                 </a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="calendar.html">
+                                    <i class="bi-calendar me-2"></i>
+                                    Calendário
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="wallet.html">
+                                    <i class="bi-wallet me-2"></i>
+                                    Carteira
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="help-center.html">
+                                    <i class="bi-question-circle me-2"></i>
+                                    Central de Marcação
+                                </a>
+                            </li>
+                           
+                            
+                            <li class="nav-item border-top mt-auto pt-2">
+                                <a class="nav-link" href="#">
+                                    <i class="bi-box-arrow-left me-2"></i>
+                                    Sair
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </nav>
 
                 <main class="main-wrapper col-md-9 ms-sm-auto py-4 col-lg-9 px-md-4 border-start">
                     <div class="title-group mb-3">
-                        <h1 class="h2 mb-0">Wallet</h1>
+                        <h1 class="h2 mb-0">Carteira</h1>
                     </div>
 
                     <div class="row my-4">
-                        <div class="col-lg-12 col-12">
-                            <div class="custom-block bg-white">
-                                <h5 class="mb-4">Account Activities</h5>
-
-                                <div class="table-responsive">
-                                    <table class="account-table table">
-                                        <thead>
-                                            <tr>
-                                                <th scope="col">Date</th>
-
-                                                <th scope="col">Time</th>
-
-                                                <th scope="col">Description</th>
-
-                                                <th scope="col">Payment Type</th>
-
-                                                <th scope="col">Amount</th>
-
-                                                <th scope="col">Balance</th>
-
-                                                <th scope="col">Status</th>
-
-                                            </tr>
-                                        </thead>
-
-                                        <tbody>
-                                            <tr>
-                                                <td scope="row">July 5, 2023</td>
-
-                                                <td scope="row">10:00 PM</td>
-
-                                                <td scope="row">Shopping</td>
-
-                                                <td scope="row">C2C Transfer</td>
-
-                                                <td class="text-danger" scope="row">
-                                                    <span class="me-1">-</span>
-                                                    $100.00
-                                                </td>
-
-                                                <td scope="row">$5,500.00</td>
-
-                                                <td scope="row">
-                                                    <span class="badge text-bg-danger">
-                                                        Pending
-                                                    </span>
-                                                </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td scope="row">July 2, 2023</td>
-
-                                                <td scope="row">10:42 AM</td>
-
-                                                <td scope="row">Food Delivery</td>
-
-                                                <td scope="row">Mobile Reload</td>
-
-                                                <td class="text-success" scope="row">
-                                                    <span class="me-1">+</span>
-                                                    $250
-                                                </td>
-
-                                                <td scope="row">$5,600.00</td>
-
-                                                <td scope="row">
-                                                    <span class="badge text-bg-success">
-                                                        Success
-                                                    </span>
-                                                </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td scope="row">June 28, 2023</td>
-
-                                                <td scope="row">8:20 PM</td>
-
-                                                <td scope="row">Billing</td>
-
-                                                <td scope="row">Goverment</td>
-
-                                                <td class="text-success" scope="row">
-                                                <span class="me-2">+</span>$50</td>
-
-                                                <td scope="row">$5,350.00</td>
-
-                                                <td scope="row">
-                                                    <span class="badge text-bg-success">
-                                                        Success
-                                                    </span>
-                                                </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td scope="row">June 24, 2023</td>
-
-                                                <td scope="row">10:48 PM</td>
-
-                                                <td scope="row">Shopee</td>
-
-                                                <td scope="row">QR Code</td>
-
-                                                <td class="text-danger" scope="row">
-                                                <span class="me-2">-</span>$380</td>
-
-                                                <td scope="row">$5,300.00</td>
-
-                                                <td scope="row">
-                                                    <span class="badge text-bg-dark">
-                                                        Cancelled
-                                                    </span>
-                                                </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td scope="row">June 12, 2023</td>
-
-                                                <td scope="row">12:30 AM</td>
-
-                                                <td scope="row">Food Delivery</td>
-
-                                                <td scope="row">Mobile Reload</td>
-
-                                                <td class="text-success" scope="row">
-                                                <span class="me-2">+</span>$250</td>
-
-                                                <td scope="row">$4,920.00</td>
-
-                                                <td scope="row">
-                                                    <span class="badge text-bg-success">
-                                                        Success
-                                                    </span>
-                                                </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td scope="row">May 31, 2023</td>
-
-                                                <td scope="row">2:40 PM</td>
-
-                                                <td scope="row">Food Delivery</td>
-
-                                                <td scope="row">Mobile Reload</td>
-
-                                                <td class="text-success" scope="row">
-                                                <span class="me-2">+</span>$50</td>
-
-                                                <td scope="row">$4,920.00</td>
-
-                                                <td scope="row">
-                                                    <span class="badge text-bg-success">
-                                                        Success
-                                                    </span>
-                                                </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td scope="row">May 22, 2023</td>
-
-                                                <td scope="row">8:50 AM</td>
-
-                                                <td scope="row">Food Delivery</td>
-
-                                                <td scope="row">Mobile Reload</td>
-
-                                                <td class="text-success" scope="row">
-                                                <span class="me-2">+</span>$50</td>
-
-                                                <td scope="row">$4,920.00</td>
-
-                                                <td scope="row">
-                                                    <span class="badge text-bg-success">
-                                                        Success
-                                                    </span>
-                                                </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td scope="row">May 20, 2023</td>
-
-                                                <td scope="row">6:45 PM</td>
-
-                                                <td scope="row">Food Delivery</td>
-
-                                                <td scope="row">Mobile Reload</td>
-
-                                                <td class="text-danger" scope="row">
-                                                <span class="me-2">-</span>$500</td>
-
-                                                <td scope="row">$4,920.00</td>
-
-                                                <td scope="row">
-                                                    <span class="badge text-bg-danger">
-                                                        Pending
-                                                    </span>
-                                                </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td scope="row">April 28, 2023</td>
-
-                                                <td scope="row">11:20 AM</td>
-
-                                                <td scope="row">Food Delivery</td>
-
-                                                <td scope="row">Mobile Reload</td>
-
-                                                <td class="text-success" scope="row">
-                                                <span class="me-2">+</span>$856</td>
-
-                                                <td scope="row">$4,920.00</td>
-
-                                                <td scope="row">
-                                                    <span class="badge text-bg-success">
-                                                        Success
-                                                    </span>
-                                                </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td scope="row">April 16, 2023</td>
-
-                                                <td scope="row">11:00 PM</td>
-
-                                                <td scope="row">Food Delivery</td>
-
-                                                <td scope="row">Mobile Reload</td>
-
-                                                <td class="text-success" scope="row">
-                                                <span class="me-2">+</span>$50</td>
-
-                                                <td scope="row">$4,920.00</td>
-
-                                                <td scope="row">
-                                                    <span class="badge text-bg-danger">
-                                                        Pending
-                                                    </span>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-
-                                <nav aria-label="Page navigation example">
-                                        <ul class="pagination justify-content-center mb-0">
-                                            <li class="page-item">
-                                                <a class="page-link" href="#" aria-label="Previous">
-                                                    <span aria-hidden="true">Prev</span>
-                                                </a>
-                                            </li>
-
-                                            <li class="page-item active" aria-current="page">
-                                                <a class="page-link" href="#">1</a>
-                                            </li>
-                                            
-                                            <li class="page-item">
-                                                <a class="page-link" href="#">2</a>
-                                            </li>
-                                            
-                                            <li class="page-item">
-                                                <a class="page-link" href="#">3</a>
-                                            </li>
-
-                                            <li class="page-item">
-                                                <a class="page-link" href="#">4</a>
-                                            </li>
-                                            
-                                            <li class="page-item">
-                                                <a class="page-link" href="#" aria-label="Next">
-                                                    <span aria-hidden="true">Next</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                            </div>
-                        </div>
-
                         <div class="col-lg-7 col-12">
                             <div class="custom-block custom-block-balance">
-                                <small>Your Balance</small>
+                                <small>Saldo Atual</small>
 
                                 <h2 class="mt-2 mb-3">$254,800</h2>
-
-                                <div class="custom-block-numbers d-flex align-items-center">
-                                    <span>****</span>
-                                    <span>****</span>
-                                    <span>****</span>
-                                    <p>2560</p>
-                                </div>
-
-                                <div class="d-flex">
-                                    <div>
-                                        <small>Valid Date</small>
-                                        <p>12/2028</p>
-                                    </div>
-
-                                    <div class="ms-auto">
-                                        <small>Card Holder</small>
-                                        <p>Thomas</p>
-                                    </div>
-                                </div>
                             </div>
 
                             <div class="custom-block custom-block-bottom d-flex flex-wrap">
@@ -554,7 +271,7 @@
                                     <a href="#" class="d-flex flex-column">
                                         <i class="custom-block-icon bi-wallet"></i>
 
-                                        <small>Top up</small>
+                                        <small>Carteira</small>
                                     </a>
                                 </div>
 
@@ -562,7 +279,7 @@
                                     <a href="#" class="d-flex flex-column">
                                         <i class="custom-block-icon bi-upc-scan"></i>
 
-                                        <small>Scan & Pay</small>
+                                        <small>QR Code</small>
                                     </a>
                                 </div>
 
@@ -570,7 +287,7 @@
                                     <a href="#" class="d-flex flex-column">
                                         <i class="custom-block-icon bi-send"></i>
 
-                                        <small>Send</small>
+                                        <small>Enviar</small>
                                     </a>
                                 </div>
 
@@ -578,7 +295,7 @@
                                     <a href="#" class="d-flex flex-column">
                                         <i class="custom-block-icon bi-arrow-down"></i>
 
-                                        <small>Request</small>
+                                        <small>Baixar</small>
                                     </a>
                                 </div>
                             </div>
@@ -586,7 +303,7 @@
 
                         <div class="col-lg-5 col-12">
                             <div class="custom-block custom-block-transations">
-                                <h5 class="mb-4">Recent Transations</h5>
+                                <h5 class="mb-4">Pagamentos Recentes</h5>
 
                                 <div class="d-flex flex-wrap align-items-center mb-4">
                                     <div class="d-flex align-items-center">
@@ -597,12 +314,12 @@
                                                 <a href="transation-detail.html">Daniel Jones</a>
                                             </p>
 
-                                            <small class="text-muted">C2C Transfer</small>
+                                            <small class="text-muted">Estorno</small>
                                         </div>
                                     </div>
 
                                     <div class="ms-auto">
-                                        <small>05/12/2023</small>
+                                        <small>05/04/2024</small>
                                         <strong class="d-block text-danger"><span class="me-1">-</span> $250</strong>
                                     </div>
                                 </div>
@@ -613,15 +330,15 @@
 
                                         <div>
                                             <p>
-                                                <a href="transation-detail.html">Public Bank</a>
+                                                <a href="transation-detail.html">Laura</a>
                                             </p>
 
-                                            <small class="text-muted">Mobile Reload</small>
+                                            <small class="text-muted">Transferencia</small>
                                         </div>
                                     </div>
 
                                     <div class="ms-auto">
-                                        <small>22/8/2023</small>
+                                        <small>04/04/2024</small>
                                         <strong class="d-block text-success"><span class="me-1">+</span> $280</strong>
                                     </div>
                                 </div>
@@ -631,9 +348,9 @@
                                         <img src="images/profile/young-woman-with-round-glasses-yellow-sweater.jpg" class="profile-image img-fluid" alt="">
 
                                         <div>
-                                            <p><a href="transation-detail.html">Store</a></p>
+                                            <p><a href="transation-detail.html">Luana </a></p>
 
-                                            <small class="text-muted">Payment Received</small>
+                                            <small class="text-muted">QR Code</small>
                                         </div>
                                     </div>
 
@@ -652,9 +369,10 @@
                             <div class="row">
                                 
                                 <div class="col-lg-12 col-12">
-                                    <p class="copyright-text">Copyright © Mini Finance 2048 
-                                    - Design: <a rel="sponsored" href="https://www.tooplate.com" target="_blank">Tooplate</a></p>
+                                    <p class="copyright-text">Copyright © Bem-Estar 2024
+                                    - Design: <a rel="sponsored" href="https://github.com/Projeto-Integrado-III" target="_blank">GitHub</a></p>
                                 </div>
+
 
                             </div>
                         </div>
