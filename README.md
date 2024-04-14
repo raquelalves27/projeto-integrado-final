@@ -44,3 +44,4 @@ Este projeto está sob a licença MIT License
 
 ### CONTATO
 Para mais informações, entre em contato os desenvolvedores.
+
