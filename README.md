@@ -1,16 +1,11 @@
 # Bem-Estar
 Projeto Bem-Estar voltado para o agendamento de consultas médicas
 
-### Nome da Equipe
+### Nome do Aluno
 Ana Raquel Soares Magalhães - 2022010348 ;
 
-Emanohelly Pereira De Sousa - 2022011873;
-
-Mozar Henrique Ferreira Mascarenhas Filho -2022010310;
-
-Lariça Géorgia Barbosa De Oliveira - 2022011336;
-
-Guilherme Da Silva Delmiro - 2022011766;
+*******
+Projeto para apresentação de final da disciplina Projeto Integrado
 
 ### DOCUMENTAÇÃO
 ### README TEMPLATE
@@ -28,8 +23,18 @@ Este projeto visa melhorar o acesso a serviços de bem-estar, permitindo que os 
 
 **Perfil Personalizado**: Cada usuário tem um perfil onde pode acompanhar seu histórico de agendamentos e preferências.
 
+*******
+#### Novas Telas Inseridas
+
+**Caléndário**: O atendente poderá Verificar consultas marcadas para um dia especifico.
+
+**Carteira**: O usuário poderá ver o saldo atual da conta vinculada no sistema e gerenciar pagamentos.
+
+**Central de Marcações**: O usuário poderá se comunicar com os pacientes e tirar algumas dúvidas se necessário.
+
+
 ### ACESSO
-Acesso atraves do link: [Bem Estar](https://projeto-integrado-iii.github.io/bem-estar/)
+Acesso atraves do link: [Bem Estar](#)
 
 ### TECNOLOGIA UTILIZADA
 HTML, CSS e BOOTSTRAP
@@ -39,3 +44,4 @@ Este projeto está sob a licença MIT License
 
 ### CONTATO
 Para mais informações, entre em contato os desenvolvedores.
+
