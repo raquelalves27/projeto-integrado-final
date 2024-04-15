@@ -34,7 +34,7 @@ Este projeto visa melhorar o acesso a serviços de bem-estar, permitindo que os 
 
 
 ### ACESSO
-Acesso atraves do link: [Bem Estar](#)
+Acesso atraves do link: [Bem Estar](https://raquelalves27.github.io/projeto-integrado-final/help-center.html)
 
 ### TECNOLOGIA UTILIZADA
 HTML, CSS e BOOTSTRAP
